@@ -3,7 +3,7 @@ import React from "react";
 const Radio = () => {
     return (
         <form>
-            <div class="radio">
+            <div className="radio">
                 <label>
                     Не буди меня
                     <input

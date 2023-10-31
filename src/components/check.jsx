@@ -3,7 +3,7 @@ import React from "react";
 const Check = () => {
     return (
         <form>
-            <div class="please">
+            <div className="please">
                 <label>
                     Посиди со мной
                     <input

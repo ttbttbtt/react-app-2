@@ -1,0 +1,25 @@
+* {
+    margin-left: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: blueviolet;
+}
+
+label {
+    color:brown;
+}
+
+.please, .radio {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: red;
+}
+
+span {
+    color: green;
+}

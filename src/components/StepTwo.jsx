@@ -25,4 +25,5 @@ const StepTwo = () => {
     </div>
   );
 };
+
 export default StepTwo;

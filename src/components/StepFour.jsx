@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import { Heading } from "../components/heading";
 import Check from "../components/check";
 import Radio from "../components/radio";
 import { Button } from "../components/button";
@@ -18,10 +17,10 @@ const StepFour = () => {
       <Radio />
       <Button
         onClick={goToNextPage}
-        // buttonType="button"
         buttonText="На экран 5"
       />
     </div>
   );
 };
+
 export default StepFour;

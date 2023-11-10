@@ -23,4 +23,5 @@ const StepOne = () => {
     </div>
   );
 };
+
 export default StepOne;

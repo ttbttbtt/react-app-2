@@ -10,4 +10,5 @@ const StepFour = () => {
     </div>
   );
 };
+
 export default StepFour;

@@ -2,7 +2,7 @@ import React from "react";
 import { P } from "../components/p";
 import { Span } from "../components/span";
 
-const StepFour = () => {
+const StepFive = () => {
   return (
     <div>
       <P />
@@ -11,4 +11,4 @@ const StepFour = () => {
   );
 };
 
-export default StepFour;
+export default StepFive;

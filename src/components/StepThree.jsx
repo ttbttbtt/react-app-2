@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-// import Input from "../components/input";
+// import { useNavigate } from "react-router-dom"; // способ 2
 import { InputStepThree } from "./inputStepThree";
-import { Button } from "../components/button";
+// import { Button } from "../components/button"; // способ 2
+import { LinkButton } from "./LinkButton";
 
 const StepThree = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate(); // способ 2
 
   const [nameValue, setNameValue] = useState("");
 
@@ -13,13 +13,13 @@ const StepThree = () => {
     setNameValue(value);
   };
 
-  const goToNextPage = () => {
-    navigate("/step-four");
-  };
+  // способ 2
+  // const goToNextPage = () => {
+  //   navigate("/step-four");
+  // };
 
   return (
     <div>
-      {/* <Input /> */}
       <form>
         <InputStepThree
           value={nameValue}
@@ -30,8 +30,15 @@ const StepThree = () => {
         />
       </form>
 
-      <Button
+      {/* // способ 2
+        <Button
         onClick={goToNextPage}
+        buttonText="На экран 4"
+        isDisabled={!nameValue}
+      /> */}
+
+      <LinkButton
+        path="/step-four"
         buttonText="На экран 4"
         isDisabled={!nameValue}
       />

@@ -19,7 +19,6 @@ const StepTwo = () => {
 
       <Button
         onClick={goToNextPage}
-        // buttonType="button"
         buttonText="На экран 3"
       />
     </div>

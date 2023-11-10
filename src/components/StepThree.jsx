@@ -20,13 +20,15 @@ const StepThree = () => {
   return (
     <div>
       {/* <Input /> */}
-      <InputStepThree
-              value={nameValue}
-              isRequired
-              inputLabel="Не хватает лишь пары слов"
-              inputPlaceholder="Напиши их здесь"
-              onChange={(value) => handleNameInput(value)}
-            />
+      <form>
+        <InputStepThree
+          value={nameValue}
+          isRequired
+          inputLabel="Не хватает лишь пары слов"
+          inputPlaceholder="Напиши их здесь"
+          onChange={(value) => handleNameInput(value)}
+        />
+      </form>
 
       <Button
         onClick={goToNextPage}

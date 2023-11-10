@@ -10,18 +10,16 @@ export const InputStepThree = ({
   onChange,
 }) => {
   return (
-    <form>
-      <label>
-        {inputLabel}
-        <input
-          required={isRequired}
-          type={inputType ?? "text"}
-          name={name}
-          placeholder={inputPlaceholder}
-          value={value}
-          onChange={(e) => onChange(e.target.value)}
-        />
-      </label>
-    </form>
+    <label>
+      {inputLabel}
+      <input
+        required={isRequired}
+        type={inputType ?? "text"}
+        name={name}
+        placeholder={inputPlaceholder}
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+      />
+    </label>
   );
 };
